@@ -1,0 +1,37 @@
+---
+title: "GitHub Connect"
+author: "Kate Montana"
+date: "2026-09-23"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Connect your R project to a github repository and periodically reconcile the two.
+
+First you need to make a GitHub repository at github.com. I like to keep mine private until publication of my project. Once you have created your repository, when you are looking at your repository "home page" on GitHub, click on the green <>Code button, and copy the HTTPS link. Then come back to RStudio.
+
+Make a new R Project in RStudio by clicking Create Project --> Version control --> Git: Clone a project from a git repository. Paste the HTTPS link from your GitHub repository and select the directory of your new project. Now your RStudio and your GitHub repository can talk to each other!
+
+To then be able to periodically reconcile the 
+
+Install packages
+```{r}
+#install.packages("gitcreds")
+#install.packages("usethis")
+```
+
+Load packages
+```{r}
+library(gitcreds)
+library(usethis)
+```
+
+Connecting your github to RStudio
+```{r}
+gitcreds_set()
+```
+Paste the HTTPS link from your repository into the console where it says Enter password or token.
