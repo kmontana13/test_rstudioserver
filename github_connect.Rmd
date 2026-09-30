@@ -40,7 +40,7 @@ Paste your personal access token (PAT).
 
 Once you have made changes in your R Project, click on commit and select all the changes you want to commit to your GitHub repository. I would think about what changes you want to include. For example, I don't include data files that I have uploaded to the R Project, mostly because large files can interfere with this process, but you might also consider data privacy. Then write a little note saying what you did and press commit.
 
-You must then press the up arrow to push your changes to get them to show up on your GitHub repository.
+You must then press the up arrow to push your changes to get them to show up on your GitHub repository. You will need to enter your github username and PAT again at this point.
 
 You can also use the Pull (down arrow) button if you made/uploaded any files via GitHub and want them to show up in your R Project.
 
