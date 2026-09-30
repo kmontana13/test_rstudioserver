@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 First you need to make a GitHub repository at github.com. I like to keep mine private until publication of my project. Once you have created your repository, when you are looking at your repository "home page" on GitHub, click on the green <>Code button, and copy the HTTPS link. 
 
-You will also need to generate a personal access token (PAT). You can do fine-grained or classic; I have been doing fine grained because you can pick which permissions you want the token to allow. SAVE it in your notes app or something because you cannot access it again.
+You will also need to generate a personal access token (PAT). You can do fine-grained or classic; I recommend classic because there are more general permissions/fewer things to get blocked. SAVE it in your notes app or something because you cannot access it again.
 
 Then come back to RStudio. Make a new R Project in RStudio by clicking Create Project --> Version control --> Git: Clone a project from a git repository. Paste the HTTPS link from your GitHub repository and select the directory of your new project. Now your RStudio and your GitHub repository can talk to each other!
 
